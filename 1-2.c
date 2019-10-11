@@ -3,21 +3,21 @@
 #include <stdlib.h> 
 #include <math.h> 
 
-void main(void) { 
+int main(void) { 
 
-	float x,y,z,s,a,b,c,d; //объ€влении переменной
+	float x,y,z,s,a,b,c,d; 
 	
-	scanf("%f \n %f \n %f", &x, &y, &z); //ввод пременной  с клавиатуры 
+	scanf("%f \n %f \n %f", &x, &y, &z);
 	
 	
-	a= pow(2.0,-x); //вычисление 
+	a= pow(2.0,-x);
 	b= sqrt(x+pow(fabs(y),(1.0/4.0)));
 	d= exp(x-(1.0/sin(z)));
 	c= pow(d,1.0/3.0); 
 	
 	s= a*b*c; 
 	
-	printf("\n Otvet = %f",s); //ввывод переменной  на экран 
+	printf("\n Otvet = %f",s); 
 	return 0;
 }
 
