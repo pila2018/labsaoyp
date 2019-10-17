@@ -3,7 +3,7 @@
 #include <math.h>
 #include <locale.h>
 
-void main(void) {
+int  main(void) {
 setlocale(LC_ALL,"Russian");
 int x,res;
 scanf("%d",&x);
