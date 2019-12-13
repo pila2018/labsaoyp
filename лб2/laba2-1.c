@@ -11,7 +11,7 @@ puts("c:"); scanf("%f",&c);
 
 if (a==b || b==c || a==c){
 	res = 1;
-	puts("треугольник равнобедренный !!!!!!!!!!!!!!! ");
+	puts("Treugol ravnobedrenny !!!!!!!!!!!!!!! ");
  }
  else
  {
